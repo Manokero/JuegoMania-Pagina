@@ -1,0 +1,157 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+header{
+	
+	background-image: url('http://imagenpng.com/wp-content/uploads/2017/01/paisaje-t%C3%ADpico.jpg');
+	position: relative;
+	text-align: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	    text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+	font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+	display: block;
+}
+
+header{
+
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+
+nav{
+	width:100%;
+
+}
+
+nav ul{
+	margin: 0px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	padding: 5px;
+	-webkit-transition: background-color .5s;
+	-moz-transition:background-color .5s;
+	transition: background-color .5s;
+	z-index: 1000;
+	list-style-type: none;
+	    transform: translate3d(0, 0, 0);
+}
+
+nav ul li{
+	padding: 10px 15px;
+	float: left;
+	color: #fff;
+	border-radius: 3px;
+	
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+nav ul li a:hover{
+	color:#EED950;
+	text-decoration: none;
+}
+
+nav ul li a:focus{
+	text-decoration: none;
+	color: #fff;
+}
+
+#inicio{
+	position: relative;
+	margin-top: 10%;
+}
+
+#inicio p{
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+}
+
+ button{
+	border-radius: 3px;
+	border-color:#FFEA58;
+	background:#EED950;
+	color:#fff;
+	padding: 20px 40px;
+	font-size: 18px;
+	border:1px solid transparent;
+
+	cursor: pointer;
+	font-weight: 700px;
+}
+
+.news{
+	padding: 10px;
+	text-align: center;
+	margin:50px;
+}
+
+.titulos{
+	text-align: center;
+	font-size: 40px;
+	color:#EED950;
+}
+#myCarousel,#myCarousel2{
+	width: 90%;
+	margin: auto;
+}
+.elem-testimonio, .team{
+	text-align: center;
+}
+
+.contactus{
+	padding: 10px;
+}
+
+.nav{
+	width: 100%;
+	position: fixed;
+	top:0;
+	display: none;
+	padding: 2%;
+	z-index: 1000;
+	background: #DB2202;
+}
+
+#barMenu{
+	width: 5%;
+	height: auto;
+	cursor: pointer;
+}
+
+.imagenHistoria{
+	width:90%;
+	max-width: 750px;
+}
+
+#caption{
+	font-size: 3em;
+}
+
+.carousel-caption{
+	color:orange;
+	background: #2966FF;
+	padding: 10px;
+}
+
+.imagenc{
+	text-align: center;
+	width: 100%;
+}

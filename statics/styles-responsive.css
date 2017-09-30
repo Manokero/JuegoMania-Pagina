@@ -1,0 +1,30 @@
+@media only screen and (max-width: 700px) {
+    nav ul li{
+        float: none;
+    }
+	nav{
+		margin-top:10%; 
+	}
+	.nave {
+		background: #DB2202;
+		display: none;
+	}
+
+	.nav{
+		display: block;
+	}
+
+	#myCarousel,
+	#myCarousel2{
+		width: 100%;
+	}
+
+	#inicio p{
+		font-size: 20px;
+	}
+
+	.news{
+		margin: 0px;
+		padding: 0px;
+	}
+}
